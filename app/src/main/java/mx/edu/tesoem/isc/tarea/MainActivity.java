@@ -38,15 +38,15 @@ public class MainActivity extends AppCompatActivity {
         guardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                datos.setNombre(nombre.getText().toString());
-                datos.setEdad(parseInt(edad.getText().toString()));
-                datos.setCorreo(correo.getText().toString());
-                nombre1 = nombre.getText().toString();
-                edad1 = edad.getText().toString();
-                correo1 = correo.getText().toString();
-                nombre.setText("");
-                edad.setText("");
-                correo.setText("");
+                datos.setNombre(nombrePersist.getText().toString());
+                datos.setEdad(parseInt(edadPersist.getText().toString()));
+                datos.setCorreo(correoPersist.getText().toString());
+                nombre1 = nombrePersist.getText().toString();
+                edad1 = edadPersist.getText().toString();
+                correo1 = correoPersist.getText().toString();
+                nombrePersist.setText("");
+                edadPersist.setText("");
+                correoPersist.setText("");
             }
         });
 
