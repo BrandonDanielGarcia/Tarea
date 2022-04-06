@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tarea</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="correo">Correo</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="guardar">Guardar</string>
+    <string name="vacio"></string>
+</resources>
